@@ -59,13 +59,15 @@ class CustomMission: MissionServer
 		EntityAI itemEnt;
 		ItemBase itemBs;
 		
-		itemEnt = player.GetInventory().CreateInInventory("Mag_STANAG_30Rnd");
-		itemBs = ItemBase.Cast(itemEnt);
-		itemBs.SetQuantity(30);
-		SetRandomHealth(itemEnt);
+		player.RemoveAllItems();
 
-		itemEnt = player.GetInventory().CreateInInventory("M4A1");
-		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("TTSKOPants");
+		player.GetInventory().CreateInInventory("TTsKOJacket_Camo");
+		player.GetInventory().CreateInInventory("AliceBag_Black");
+		player.GetInventory().CreateInInventory("CombatBoots_Black");
+
+		EntityAI gun = player.GetInventory().CreateInInventory("M4A1");
+		EntityAI magazine = player.GetInventory().CreateInInventory("Mag_STANAG_30Rnd");
 	}
 };
   
