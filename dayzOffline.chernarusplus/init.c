@@ -61,13 +61,20 @@ class CustomMission: MissionServer
 		
 		player.RemoveAllItems();
 
-		player.GetInventory().CreateInInventory("TTSKOPants");
-		player.GetInventory().CreateInInventory("TTsKOJacket_Camo");
-		player.GetInventory().CreateInInventory("AliceBag_Black");
+		player.GetInventory().CreateInInventory("GorkaPants_Flat");
+		player.GetInventory().CreateInInventory("GorkaEJacket_Flat");
+		player.GetInventory().CreateInInventory("HuntingBag");
 		player.GetInventory().CreateInInventory("CombatBoots_Black");
+		player.GetInventory().CreateInInventory("WaterBottle");
+		player.GetInventory().CreateInInventory("BallisticVest");
+		player.GetInventory().CreateInInventory("PeachesCan_Opened");
+		player.GetInventory().CreateInInventory("BandageDressing");
 
 		EntityAI gun = player.GetInventory().CreateInInventory("M4A1");
 		EntityAI magazine = player.GetInventory().CreateInInventory("Mag_STANAG_30Rnd");
+		
+		EntityAI gun = player.GetInventory().CreateInInventory("SVD");
+		EntityAI magazine = player.GetInventory().CreateInInventory("Mag_SVD_10Rnd");
 	}
 };
   
