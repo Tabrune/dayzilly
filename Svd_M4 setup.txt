@@ -1,0 +1,44 @@
+
+	
+	EntityAI itemEnt;
+        ItemBase itemBs;
+
+        itemEnt = player.GetInventory().CreateInInventory("Mag_SVD_10Rnd");
+        itemBs = ItemBase.Cast(itemEnt);
+        itemBs.SetQuantity(10);
+
+        itemEnt = player.GetInventory().CreateInInventory("SVD");
+        itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("Mag_STANAG_30Rnd");
+        itemBs = ItemBase.Cast(itemEnt);
+        itemBs.SetQuantity(30);
+
+        itemEnt = player.GetInventory().CreateInInventory("M4A1");
+        itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("GorkaPants_Flat");
+		itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("WaterBottle");
+		itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("PeachesCan_Opened");
+		itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory(BallisticVest");
+		itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("GorkaEJacket_Flat");
+        itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("CombatBoots_Black");
+        itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("HuntingBag");
+        itemBs = ItemBase.Cast(itemEnt);
+		
+		itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
+        itemBs = ItemBase.Cast(itemEnt);
+		 
+		 
