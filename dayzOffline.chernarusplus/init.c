@@ -57,14 +57,20 @@ class CustomMission: MissionServer
 		EntityAI item3 = player.GetInventory().CreateInInventory(shoesArray.GetRandomElement());
 */
 		player.RemoveAllItems();
-		player.GetInventory().CreateInInventory("TTSKOPants");
-		player.GetInventory().CreateInInventory("TTsKOJacket_Camo");
-		player.GetInventory().CreateInInventory("AliceBag_Black");
+		player.GetInventory().CreateInInventory("GorkaEJacket_Autumn");
+		player.GetInventory().CreateInInventory("GorkaEJacket_Autumn");
+		player.GetInventory().CreateInInventory("HuntingBag");
 		player.GetInventory().CreateInInventory("CombatBoots_Black");
 		player.GetInventory().CreateInInventory("WaterBottle");
-		player.GetInventory().CreateInInventory("BallisticVest");
+		player.GetInventory().CreateInInventory("HighCapacityVest_Black");
 		player.GetInventory().CreateInInventory("PeachesCan_Opened");
 		player.GetInventory().CreateInInventory("BandageDressing");
+		player.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
+		player.GetInventory().CreateInInventory("Ammo_556x45");
+		itemBs.SetQuantity(60);
+		player.GetInventory().CreateInInventory("PSO1Optic");
+		player.GetInventory().CreateInInventory("ACOGOptic");
+		player.GetInventory().CreateInInventory("BallisticHelmet_Black");
 		EntityAI gun = player.GetInventory().CreateInInventory("M4A1");
 		EntityAI magazine = player.GetInventory().CreateInInventory("Mag_STANAG_30Rnd");
 
